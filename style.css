@@ -1,0 +1,38 @@
+.container{
+    align-self: center;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center
+      
+}
+.container h1{
+font-size: 2rem;;
+font-family: fantasy;
+color:white;
+text-align: center;
+}
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-image: url(Img/Tech.jpg);
+    background-size:cover;
+}
+a{
+    align-self: center;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+.btn{
+    padding:0.3rem 1rem;
+    color:white;
+    background-color: blue;
+    border:1px solid #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 2s ease-in-out
+}
+.btn:hover{
+   transform:scale(1.1);
+}
